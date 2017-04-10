@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
@@ -11,7 +11,7 @@ import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    DashboardComponent,
     HeaderComponent,
     FooterComponent,
     MenuComponent,
@@ -23,6 +23,6 @@ import { SettingsComponent } from './settings/settings.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [DashboardComponent]
 })
-export class AppModule { }
+export class DashboardModule { }
